@@ -11,8 +11,11 @@
 
 <body>
     <!-- React root DOM -->
-    <div id="user">
+    <div id="header"></div>
+    <div class="mb-5">
+        <div id="user"></div>
     </div>
+    <div id="footer"></div>
 
     <!-- React JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>
